@@ -1,0 +1,32 @@
+{
+  "_comment": "Demo immigration records. *_offset are days relative to today, so statuses stay realistic. The police desk reads these through GET /v1/travellers and treats them as immigration API records.",
+  "travellers": [
+    {"reference": "ETA-2026-000201", "passport_number": "N1234589", "nationality": "India",
+     "full_name": "Rahul Mehta", "visa_type": "ETA Tourist (30 days)",
+     "valid_from_offset": -25, "valid_until_offset": 5, "entry_offset": -25, "exit_offset": null},
+    {"reference": "ETA-2026-000202", "passport_number": "FR8821104", "nationality": "France",
+     "full_name": "Amelie Laurent", "visa_type": "ETA Tourist (30 days)",
+     "valid_from_offset": -28, "valid_until_offset": 2, "entry_offset": -28, "exit_offset": null},
+    {"reference": "ETA-2026-000203", "passport_number": "E39201884", "nationality": "China",
+     "full_name": "Chen Wei", "visa_type": "ETA Tourist (30 days)",
+     "valid_from_offset": -18, "valid_until_offset": 12, "entry_offset": -18, "exit_offset": null},
+    {"reference": "ETA-2026-000204", "passport_number": "C01X77K42", "nationality": "Germany",
+     "full_name": "Lukas Becker", "visa_type": "ETA Tourist (30 days)",
+     "valid_from_offset": -40, "valid_until_offset": -9, "entry_offset": -40, "exit_offset": null},
+    {"reference": "ETA-2026-000205", "passport_number": "YA4412908", "nationality": "Italy",
+     "full_name": "Maria Costa", "visa_type": "ETA Tourist (30 days)",
+     "valid_from_offset": -34, "valid_until_offset": -3, "entry_offset": -34, "exit_offset": null},
+    {"reference": "MEV-2026-000206", "passport_number": "TK9021553", "nationality": "Japan",
+     "full_name": "Kenji Sato", "visa_type": "Multiple-entry Tourist (180 days)",
+     "valid_from_offset": -20, "valid_until_offset": 160, "entry_offset": -20, "exit_offset": null},
+    {"reference": "ETA-2026-000207", "passport_number": "PA7782106", "nationality": "Australia",
+     "full_name": "Noah Williams", "visa_type": "ETA Tourist (30 days)",
+     "valid_from_offset": -6, "valid_until_offset": 24, "entry_offset": -6, "exit_offset": null},
+    {"reference": "ETA-2026-000208", "passport_number": "19AF44821", "nationality": "France",
+     "full_name": "Sophie Martin", "visa_type": "ETA Tourist (30 days)",
+     "valid_from_offset": -35, "valid_until_offset": -5, "entry_offset": -35, "exit_offset": -6},
+    {"reference": "ETA-2026-000209", "passport_number": "Z3309182", "nationality": "India",
+     "full_name": "Priya Nair", "visa_type": "ETA Tourist (30 days)",
+     "valid_from_offset": -21, "valid_until_offset": 9, "entry_offset": -21, "exit_offset": -1}
+  ]
+}
