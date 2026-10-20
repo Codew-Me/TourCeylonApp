@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/static/:path*", "destination": "/travel_ai/travel_ai/static/:path*" },
+    { "source": "/", "destination": "/travel_ai/travel_ai/static/index.html" }
+  ]
+}
